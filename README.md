@@ -1,2 +1,0 @@
-# BSideBar
-BSideBar Maven Repo
