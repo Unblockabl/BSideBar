@@ -41,18 +41,9 @@ jobs:
         with:
           name: github-actions-artifact
           path: staging
-        distribution: 'adopt'
         
       - name: Build with Maven
         run: mvn -B package --file pom.xml 
         env:
           USER_NAME: ${{ secrets.USER_NAME }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }
-        
-
-
-          
-          
-          
-
-
