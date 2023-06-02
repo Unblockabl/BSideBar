@@ -45,5 +45,5 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml 
         env:
-          USER_NAME: Unblockabl
-          ACCESS_TOKEN: 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
+          USER_NAME: ${{ secrets.USER_NAME }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
