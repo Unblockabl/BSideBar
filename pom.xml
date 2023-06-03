@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>uk.co.unblockablstudios</groupId>
-    <artifactId>BSideBar</artifactId>
+    <artifactId>bsidebar</artifactId>
     <version>0.2.3</version>
     <packaging>jar</packaging>
 
