@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BSideBar:jar">
+    <output-path>$PROJECT_DIR$/../../../TEST SERVER/plugins/</output-path>
+    <root id="archive" name="BSideBar.jar">
+      <element id="module-output" name="BSideBar" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
